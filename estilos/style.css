@@ -14,6 +14,7 @@ main{
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.31);
+    border-radius: 8px;
 }
 
 h1{
@@ -24,4 +25,19 @@ h1{
 h2{
     font-size: 1.5em;
     color: rgb(124, 124, 228);
+}
+
+img.lado{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 110, 255);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(86, 159, 255);
 }
